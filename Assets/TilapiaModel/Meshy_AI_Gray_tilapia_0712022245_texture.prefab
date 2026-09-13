@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2527005407943411222
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8f9f865b1c45b5041b74a5998cf52244, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.01585
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f9f865b1c45b5041b74a5998cf52244, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.284
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f9f865b1c45b5041b74a5998cf52244, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.12488
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f9f865b1c45b5041b74a5998cf52244, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f9f865b1c45b5041b74a5998cf52244, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f9f865b1c45b5041b74a5998cf52244, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f9f865b1c45b5041b74a5998cf52244, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f9f865b1c45b5041b74a5998cf52244, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f9f865b1c45b5041b74a5998cf52244, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f9f865b1c45b5041b74a5998cf52244, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8f9f865b1c45b5041b74a5998cf52244, type: 3}
+      propertyPath: m_Name
+      value: Meshy_AI_Gray_tilapia_0712022245_texture
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8f9f865b1c45b5041b74a5998cf52244, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2316168215876370272}
+  m_SourcePrefab: {fileID: 100100000, guid: 8f9f865b1c45b5041b74a5998cf52244, type: 3}
+--- !u!1 &3445486632121695047 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8f9f865b1c45b5041b74a5998cf52244, type: 3}
+  m_PrefabInstance: {fileID: 2527005407943411222}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-2316168215876370272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3445486632121695047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28c089806d4eb5d4da642508485db1eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SwimAnimation
+  swaySpeed: 2
+  swayAmount: 15
+  bobSpeed: 1.5
+  bobAmount: 0.02
